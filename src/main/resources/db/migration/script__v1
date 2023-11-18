@@ -1,0 +1,7 @@
+create table VEICULO(
+	id int primary key,
+	modelo varchar(60),	
+	marca varchar(60),
+	ano int,
+	preço decimal(5,0)
+);
